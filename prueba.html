@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="prueba.css">
+    <meta charset="utf-8">
+    <title>Curriculum Vitae</title>
+     
+      <link rel="stylesheet" href="css\extra.css">
+          <link rel="stylesheet" href="css\unslider.css">
+          
+          <script type="text/javascript" src="js\jquery.min.js">
+        </script>
+          <script type="text/javascript" src="js\unslider.js">
+        </script>
+
+
+</head>
+<body backgound="fondo1.jpg">
+    <div id="pagina1">
+        <img src="https://fb-s-b-a.akamaihd.net/h-ak-fbx/v/t1.0-9/11204941_1108207289207467_2877272381918349656_n.jpg?oh=123fb3cdb6cb90c11481af2c221459e4&oe=59AE6C99&__gda__=1505766002_f6724f7d8aa1d1f37c1743e70af4b0f5">
+         <ul>
+           <li><a href="#hoja1">Presentacion</a></li>
+            <li><a href="#hoja2">Formacio</a></li>
+             <li><a href="#hoja4">Experiencia</a></li>
+              <li><a href="#hoja3">portfolio</a></li>
+     </div>
+
+
+<div id="contenido">
+    <div id="hoja1">
+        <h1><strong>Quien soy</strong></h1>
+          <h2>Fabricio SanRoman</h2>
+           <h4>Front-end jr.</h3>
+  <ul>
+       <li>Nombre:Fabricio SanRoman </li>
+        <li>Edad:17</li>
+         <li>Direccion:habana 3077</li>
+          <li>Email:Fabri000@hotmail.com</li>
+           <li>Telefono:+54 1121854121</li>
+            <li>Skype:</li>
+      </ul>
+           <p> soy una persona con muchos intereses y gustos diferentes, estoy terminando la secundaria y tengo ganas de trabajar en un lugar donde pueda aprender y crecer como profecional
+  </div>
+
+
+   <div id="hoja2">
+      <h3><strong>Formacion</strong></h3>
+        <h4>EEMN2 DE 16</h4>
+          <h5> Bachiller orientado en ciencias Sociales</h5>
+  </div>
+         <div id="hoja4">
+          <h2> Aspiración Laboral </h2>
+          <h4> me gustaria trabajar en un lugar en el que me guste , y en el que pueda desarrollar mis habilidades en programacion</h4> 
+         </div>
+</div>
+      <div id="hoja3">
+        <h3>Portfolio</h3>
+        <div class="slider">
+          <ul>
+            <li>CV <a href="prueba.html" ><img src="cv.png"> </a></li>
+            <li>Sitio de Noticias<a href="telam.html" ><img src="noticias.png"> </a></li>
+            <li>Rompecabezas <a href="juego.html" ><img src="rompecabezas.png"> </a></li>
+            <li>Front<img src="front.jpg"></li>
+          </ul>
+
+        </div>
+     </div>
+          
+</div> 
+
+
+      <script>
+      jQuery(document).ready(function($) {
+        $('.slider').unslider({
+          arrows: false,
+          autoplay: true
+
+        });
+      });
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,99 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/dbz123.png);
+}
+html{
+  cursor: url(../images/cursordbz.gif), auto;
+}
+#titulo h1 {
+  margin-right: auto;
+  margin-left: auto;
+  background: gray;
+  padding: auto;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 200%;
+}
+
+#titulo h3 {
+  color: gray;
+  border-bottom: 1px dotted blue;
+}
+
+img {
+  height: 200px;
+  width:200px;
+  float: left;
+  border: 1px solid black;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  padding: 5px 0;
+}
+
+li::before {
+  content: "• ";
+  color: gray;
+}
+
+.col-40, .col-60 {
+background: yellow;
+  display: table-cell;
+  padding: 0px;
+  color: #000;
+  border: 1px solid #820b11;
+  background: #BCF5A9;
+  opacity: 0.9;
+  margin-top: 1%;
+}
+
+.col-40 {
+   float: left;
+  width: 23%;
+  border: 5px solid #820b11;
+  padding: 20px 20px 10px 20px;
+  background: #ff8800;
+  opacity: 0.8;
+  margin: 10px;
+  margin-top: 7%;
+  margin-left: 100px
+}
+.col-60 {
+    margin-top: 1%;
+  margin-bottom: 1%;
+  float: right;
+  border: 5px solid #820b11;
+  background: gray;
+  opacity: 0.9;
+   width: 606px;
+  height: 606px;
+  margin-bottom: 200px;
+  margin-right: 150px;
+}
+
+#juego div {
+ background-color:red;
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.piezas {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+}
